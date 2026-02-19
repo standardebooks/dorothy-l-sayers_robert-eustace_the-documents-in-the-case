@@ -1,2 +1,122 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+/* Begin Letters */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
+[epub|type~="z3998:recipient"],
+header > [epub|type~="z3998:salutation"]{
+	text-align: initial;
+}
+
+[epub|type~="z3998:letter"] header + p{
+    margin-top: 0;
+    text-indent: 0;
+}
+
+[epub|type~="z3998:recipient"],
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
+}
+
+.telegram{
+	font-variant: all-small-caps;
+}
+/* end letters */
+
+/* Begin Poetry */
+[epub|type~="z3998:poem"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+/* end poetry */
+
+/* Begin Custom */
+#chapter-47 hgroup + p,
+#chapter-48 hgroup + p{
+	text-transform: uppercase;
+}
+
+#chapter-47 hgroup + p + p,
+#chapter-48 hgroup + p + p{
+	font-variant: small-caps;
+}
+
+#chapter-47 hgroup + p + p + p,
+#chapter-48 hgroup + p + p + p{
+	font-variant: all-small-caps;
+}
+
+#chapter-47  header > p:nth-last-of-type(-n + 3):after,
+#chapter-48  header > p:nth-last-of-type(-n + 3):after{
+	border-top: 1px solid;
+	content: "";
+	display: block;
+	height: 0;
+	margin: 1em auto;
+	width: 25%;
+}
+
+#chapter-47 .subhead,
+#chapter-48 .subhead,
+#chapter-49 .subhead{
+	font-variant: small-caps;
+    margin: 1em auto;
+    text-indent: 0;
+}
+
+#chapter-47 .subhead,
+#chapter-48 .subhead{
+    text-align: center;
+}
+
+#chapter-48 footer{
+    text-align: inherit;
+}
+
+#chapter-49 ol:nth-of-type(even){
+    list-style-type: "2. ";
+}
+
+#chapter-49 ol + p{
+	text-indent: 0;
+}
+
+#chapter-53 blockquote header p:nth-of-type(2){
+	text-transform: uppercase;
+    margin: 1em auto;
+}
+
+#chapter-53 div{
+    font-style: italic;
+}
+/* end custom */
