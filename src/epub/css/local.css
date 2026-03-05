@@ -67,7 +67,8 @@ p span.i1{
 }
 
 #chapter-47 hgroup + p + p,
-#chapter-48 hgroup + p + p{
+#chapter-48 hgroup + p + p,
+#chapter-49 blockquote:nth-of-type(2) header{
 	font-variant: small-caps;
 }
 
@@ -105,6 +106,10 @@ p span.i1{
 
 #chapter-49 ol:nth-of-type(even){
 	list-style-type: "2. ";
+}
+
+#chapter-49 ol p{
+	font-style: italic;
 }
 
 #chapter-49 ol + p{
