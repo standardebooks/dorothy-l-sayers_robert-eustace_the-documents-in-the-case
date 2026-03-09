@@ -77,9 +77,9 @@ p span.i1{
 	font-variant: all-small-caps;
 }
 
-#chapter-47 header > p:nth-last-of-type(-n + 3):after,
-#chapter-48 header > p:nth-last-of-type(-n + 3):after{
-	border-top: 1px solid;
+#chapter-47 header hgroup ~ p:nth-of-type(-n + 3):after,
+#chapter-48 header hgroup ~ p:nth-of-type(-n + 3):after{
+	border-bottom: 1px solid;
 	content: "";
 	display: block;
 	height: 0;
@@ -87,33 +87,30 @@ p span.i1{
 	width: 25%;
 }
 
-#chapter-47 .subhead,
-#chapter-48 .subhead,
-#chapter-49 .subhead{
+#chapter-47 section > header[role] p,
+#chapter-48 section > header[role] p,
+#chapter-49 section > header[role] p{
 	font-variant: small-caps;
 	margin: 1em auto;
 	text-indent: 0;
 }
 
-#chapter-47 .subhead,
-#chapter-48 .subhead{
-	text-align: center;
+#chapter-47 section > header[role] + *,
+#chapter-48 section > header[role] + *{
+	margin: 0;
 }
 
 #chapter-48 footer{
 	text-align: inherit;
 }
 
-#chapter-49 ol:nth-of-type(even){
-	list-style-type: "2. ";
-}
-
-#chapter-49 ol p{
+#chapter-49 ol li p:first-child{
 	font-style: italic;
+	text-indent: 0;
 }
 
-#chapter-49 ol + p{
-	text-indent: 0;
+#chapter-49 li:nth-of-type(even){
+	margin-top: 1em;
 }
 
 #chapter-53 blockquote header p:nth-of-type(2){
