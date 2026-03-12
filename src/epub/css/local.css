@@ -114,6 +114,14 @@ p span.i1{
 	margin-top: 1em;
 }
 
+#chapter-53 blockquote header p:nth-of-type(1){
+	font-style: italic;
+}
+
+#chapter-53 blockquote header p:nth-of-type(1) i{
+	font-style: normal;
+}
+
 #chapter-53 blockquote header p:nth-of-type(2){
 	margin: 1em auto;
 	text-transform: uppercase;
