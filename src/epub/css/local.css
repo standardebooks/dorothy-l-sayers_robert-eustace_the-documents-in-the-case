@@ -87,16 +87,16 @@ p span.i1{
 	width: 25%;
 }
 
-#chapter-47 section > header[role] p,
-#chapter-48 section > header[role] p,
-#chapter-49 section > header[role] p{
+#chapter-47 div > header[role] p,
+#chapter-48 div > header[role] p,
+#chapter-49 div > header[role] p{
 	font-variant: small-caps;
 	margin: 1em auto;
 	text-indent: 0;
 }
 
-#chapter-47 section > header[role] + *,
-#chapter-48 section > header[role] + *{
+#chapter-47 div > header[role] + *,
+#chapter-48 div > header[role] + *{
 	margin: 0;
 }
 
