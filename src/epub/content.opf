@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/dorothy-l-sayers_robert-eustace/the-documents-in-the-case</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-03-12T20:11:15Z</dc:date>
+		<meta property="dcterms:modified">2026-03-12T20:11:15Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -44,16 +44,16 @@
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">A man’s apparently accidental death soon arouses suspicions.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;The household of George Harrison and his young wife is enlivened by their new lodgers, a novelist and a painter, who nonetheless have very different effects on the Harrisons’ domestic help. &lt;abbr&gt;Mr.&lt;/abbr&gt; Harrison’s son by his first wife, an engineer working in Central Africa, receives letters from his father (also an engineer, and a self-taught gourmet chef) which take on new significance when a fatality visits the household in England.&lt;/p&gt;
-			&lt;p&gt;By the time &lt;i&gt;The Documents in the Case&lt;/i&gt; was conceived, &lt;a href="https://standardebooks.org/ebooks/dorothy-l-sayers"&gt;Dorothy Sayers&lt;/a&gt; had already achieved fame as the creator of the &lt;a href="https://standardebooks.org/collections/lord-peter-wimsey"&gt;Lord Peter Wimsey&lt;/a&gt; novels. In the Spring of 1928, she had contact with &lt;a href="https://standardebooks.org/ebooks/dorothy-l-sayers_robert-eustace"&gt;&lt;abbr&gt;Dr.&lt;/abbr&gt; Eustace Barton&lt;/a&gt;, a medical doctor who had already authored some “medical mysteries” of his own under the pen-name “Robert Eustace.” Barton pitched a scientific idea for a plot, and suggested their collaboration. With her own interest in science and its intersection with philosophical questions and the life of faith, Sayers took up the proposal with enthusiasm.&lt;/p&gt;
-			&lt;p&gt;The form of the book was a departure for Sayers. The epistolary novel is a very old genre, but it committed Sayers to an unusual, but potentially creative form. The first of the “documents” is dated roughly to the time when the collaboration commenced, so the plot’s timeline is not far off “real time” for their writing. The scientific element—an important contribution from Barton—plays a central role in the story. Together, Sayers and Barton conducted chemical experiments to ensure the veracity of this element of the story.&lt;/p&gt;
-			&lt;p&gt;Given Sayers’s enthusiasm for the concepts and collaboration, she was left with regrets about the final result, not least since objections were raised to the science on which the solution rested. By the end of 1932, &lt;abbr&gt;Dr.&lt;/abbr&gt; Barton was able to put those doubts to rest, and their solution was vindicated. Meanwhile, the epistolary form gives a new dimension to the reader’s attempt to solve the mystery, and Sayers’s powerful treatment of grand themes suggest a trajectory towards some of her later work.&lt;/p&gt;
+			&lt;p&gt;The household of George Harrison and his young wife is enlivened by their new lodgers, a novelist and a painter, who nonetheless have very different effects on the Harrisons’ domestic help. Mr. Harrison’s son by his first wife, an engineer working in Central Africa, receives letters from his father (also an engineer, and a self-taught gourmet chef) which take on new significance when a fatality occurs.&lt;/p&gt;
+			&lt;p&gt;By the time &lt;i&gt;The Documents in the Case&lt;/i&gt; was conceived, &lt;a href="https://standardebooks.org/ebooks/dorothy-l-sayers"&gt;Dorothy Sayers&lt;/a&gt; had already achieved fame as the creator of the &lt;a href="https://standardebooks.org/collections/lord-peter-wimsey"&gt;Lord Peter Wimsey&lt;/a&gt; novels. In the Spring of 1928, she had contact with &lt;a href="https://standardebooks.org/ebooks/dorothy-l-sayers_robert-eustace"&gt;Dr. Eustace Barton&lt;/a&gt;, a medical doctor who had already authored some medical mysteries of his own under the pen name “Robert Eustace.” Barton pitched a scientific idea for a plot, and suggested their collaboration. With her own interest in science and its intersection with philosophical questions and the life of faith, Sayers took up the proposal with enthusiasm.&lt;/p&gt;
+			&lt;p&gt;The form of the book is a departure for Sayers. The epistolary novel is a very old genre, but it committed Sayers to an unusual, but potentially creative form. The first of the “documents” is dated roughly to the time when the collaboration commenced, so the plot’s timeline is not far off “real time” for their writing. The scientific element—an important contribution from Barton—plays a central role in the story. Together, Sayers and Barton conducted chemical experiments to ensure the veracity of this element of the story.&lt;/p&gt;
+			&lt;p&gt;Given Sayers’s enthusiasm for the concepts and collaboration, she was left with regrets about the final result, not least since objections were raised to the science on which the solution rested. By the end of 1932, Dr. Barton was able to put those doubts to rest, and their solution was vindicated. Meanwhile, the epistolary form gives a new dimension to the reader’s attempt to solve the mystery, and Sayers’s powerful treatment of grand themes suggest a trajectory towards some of her later work.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/77601</dc:source>
 		<dc:source>https://archive.org/details/bwb_O6-BMX-852</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">77725</meta>
+		<meta property="se:reading-ease.flesch">73.07</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Documents_in_the_Case</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/dorothy-l-sayers_robert-eustace_the-documents-in-the-case</meta>
 		<dc:creator id="author-1">Dorothy L. Sayers</dc:creator>
@@ -100,6 +100,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.robinwhittleton.com/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
