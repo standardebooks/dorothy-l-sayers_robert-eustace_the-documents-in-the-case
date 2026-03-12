@@ -33,7 +33,8 @@ header > [epub|type~="z3998:salutation"]{
 	text-indent: 0;
 }
 
-.telegram{
+.telegram,
+.telegram [epub|type~="z3998:signature"]{
 	font-variant: all-small-caps;
 }
 /* end letters */
